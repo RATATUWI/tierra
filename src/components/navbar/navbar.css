@@ -1,0 +1,32 @@
+.navbar{
+    height: 5rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: white;
+}
+.logo{
+    object-fit: cover;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50rem;
+}
+.desktopMenuListItem{
+    margin: 1.5rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+.desktopMenuBtn{
+    width: 8rem;
+    height: 2.5rem;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 6rem;
+}

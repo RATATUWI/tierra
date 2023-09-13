@@ -1,0 +1,25 @@
+#accommodation{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    background-image: url('../../assets/bg2.png');
+    background-size: cover;
+    background-position: center;
+    margin-top: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.accoContentBorder{
+    width: 20rem;
+    height: 30rem;
+    border: 1px solid white;
+    background-color: white;
+}
+.accImg{
+    width: 15rem;
+}

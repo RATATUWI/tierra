@@ -1,0 +1,31 @@
+#intro{
+    width: 100%;
+    height: calc(100vh - 4rem);
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    background-image: url('../../assets/bg.png');
+    background-size: cover;
+    background-position: center;
+}
+.introContent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+.introTitle{
+    font-weight: 700;
+    font-size: 3rem;
+    width: 100%;
+}
+.introContentBtn{
+    background-color: green;
+    width: 8rem;
+    height: 2.5rem;
+    border: none;
+    color: white;
+    margin-top: 2.5rem;
+}

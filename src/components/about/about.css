@@ -1,0 +1,38 @@
+#about{
+    margin: 0 auto;
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 1rem;
+    overflow: hidden;
+    margin-top: 5rem;
+}
+.aboutContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.aboutImg1{
+    width: 25rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+.aboutTextDesc{
+    max-width: 25rem;
+    padding: 2rem;
+    background-color: #36C6A2;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    color: white;
+    font-weight: 300;
+    font-size: 0.9rem;
+    height: 25rem;
+}
+.aboutTextTitle{
+    font-size: 1.2rem;
+}
